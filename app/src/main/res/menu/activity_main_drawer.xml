@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single" android:id="@+id/nav_menu_group_first">
+        <item
+            android:id="@+id/nav_results"
+            android:icon="@drawable/ic_counter"
+            android:title="@string/results_title" />
+        <item
+            android:id="@+id/nav_standings"
+            android:icon="@drawable/ic_trophy"
+            android:title="@string/standings_title" />
+        <item
+            android:id="@+id/nav_tv_schedule"
+            android:icon="@drawable/ic_television_guide"
+            android:title="@string/tv_schedule" />
+    </group>
+
+    <group android:checkableBehavior="single" android:id="@+id/nav_menu_group_second">
+        <item
+            android:id="@+id/nav_send_comments"
+            android:icon="@drawable/ic_email"
+            android:title="@string/send_comments"
+            android:checkable="true"/>
+        <item
+            android:id="@+id/nav_open_source"
+            android:icon="@drawable/ic_github_box"
+            android:title="@string/open_source_licenses"
+            android:checkable="true"/>
+    </group>
+</menu>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name" translatable="false">ACB Guru</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="results_title">Resultados</string>
+    <string name="match_finished">Finalizado</string>
+    <string name="points_separator" translatable="false">-</string>
+    <string name="standings_title">Clasificación</string>
+    <string name="send_comments">Enviar Comentarios</string>
+    <string name="open_source_licenses">Licencias Código Abierto</string>
+    <string name="navigation_drawer_close">Cerrar</string>
+    <string name="navigation_drawer_open">Abrir</string>
+    <string name="title_match_day">Jornada</string>
+    <string name="tv_schedule">Horarios TV</string>
+    <string name="stats_tab">Estadísticas</string>
+    <string name="plays_tab">Jugadas</string>
+    <string name="title_activity_match_details">Detalles Partido</string>
+    <string name="local_team_logo">Local Team Logo</string>
+    <string name="visitor_team_logo">Visitor Team Logo</string>
+    <string name="title_personal_fouls">FP</string>
+    <string name="title_valorization">Val</string>
+    <string name="title_assists">Asi</string>
+    <string name="title_rebounds">Reb</string>
+    <string name="title_points">Pts</string>
+    <string name="hashtag">#</string>
+    <string name="title_minutes">Min</string>
+    <string name="empty_string"> </string>
+</resources>

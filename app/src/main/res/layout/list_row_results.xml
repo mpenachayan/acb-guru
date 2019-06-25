@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:weightSum="11">
+
+        <ImageView
+            android:id="@+id/image_result_local"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="4"
+            android:contentDescription="@string/local_team_logo" />
+
+        <TextView
+            android:id="@+id/text_result_score"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@drawable/rounded_corners"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textAppearance="?android:textAppearanceLargeInverse" />
+
+        <ImageView
+            android:id="@+id/image_result_visitor"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="4"
+            android:contentDescription="@string/visitor_team_logo" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="11">
+
+        <TextView
+            android:id="@+id/text_result_local_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:maxLines="1"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingStart="@dimen/activity_horizontal_margin"
+            android:textAlignment="center"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+
+        <TextView
+            android:id="@+id/text_result_match_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:maxLines="1"
+            android:textAlignment="center"
+            android:textAppearance="?android:textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/text_result_visitor_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:gravity="end"
+            android:maxLines="1"
+            android:paddingEnd="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:textAlignment="center"
+            android:textAppearance="?android:textAppearanceMedium" />
+    </LinearLayout>
+</LinearLayout>
